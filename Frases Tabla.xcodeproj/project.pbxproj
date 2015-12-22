@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0995740E1C28191F0004F3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995740D1C28191F0004F3CA /* AppDelegate.swift */; };
+		099574131C28191F0004F3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099574111C28191F0004F3CA /* Main.storyboard */; };
+		099574151C28191F0004F3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099574141C28191F0004F3CA /* Assets.xcassets */; };
+		099574181C28191F0004F3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099574161C28191F0004F3CA /* LaunchScreen.storyboard */; };
+		099574231C28191F0004F3CA /* Frases_TablaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099574221C28191F0004F3CA /* Frases_TablaTests.swift */; };
+		0995742E1C2819D50004F3CA /* FrasesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995742D1C2819D50004F3CA /* FrasesTVC.swift */; };
+		099574301C281ECC0004F3CA /* Frases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995742F1C281ECC0004F3CA /* Frases.swift */; };
+		099574321C2821C20004F3CA /* CeldaFrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099574311C2821C20004F3CA /* CeldaFrases.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0995741F1C28191F0004F3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 099574021C28191F0004F3CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099574091C28191F0004F3CA;
+			remoteInfo = "Frases Tabla";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0995740A1C28191F0004F3CA /* Frases Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frases Tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0995740D1C28191F0004F3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		099574121C28191F0004F3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		099574141C28191F0004F3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		099574171C28191F0004F3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		099574191C28191F0004F3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0995741E1C28191F0004F3CA /* Frases TablaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frases TablaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		099574221C28191F0004F3CA /* Frases_TablaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frases_TablaTests.swift; sourceTree = "<group>"; };
+		099574241C28191F0004F3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0995742D1C2819D50004F3CA /* FrasesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrasesTVC.swift; sourceTree = "<group>"; };
+		0995742F1C281ECC0004F3CA /* Frases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frases.swift; sourceTree = "<group>"; };
+		099574311C2821C20004F3CA /* CeldaFrases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaFrases.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099574071C28191F0004F3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995741B1C28191F0004F3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099574011C28191F0004F3CA = {
+			isa = PBXGroup;
+			children = (
+				0995742D1C2819D50004F3CA /* FrasesTVC.swift */,
+				099574311C2821C20004F3CA /* CeldaFrases.swift */,
+				0995742F1C281ECC0004F3CA /* Frases.swift */,
+				0995740C1C28191F0004F3CA /* Frases Tabla */,
+				099574211C28191F0004F3CA /* Frases TablaTests */,
+				0995740B1C28191F0004F3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0995740B1C28191F0004F3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0995740A1C28191F0004F3CA /* Frases Tabla.app */,
+				0995741E1C28191F0004F3CA /* Frases TablaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0995740C1C28191F0004F3CA /* Frases Tabla */ = {
+			isa = PBXGroup;
+			children = (
+				0995740D1C28191F0004F3CA /* AppDelegate.swift */,
+				099574111C28191F0004F3CA /* Main.storyboard */,
+				099574141C28191F0004F3CA /* Assets.xcassets */,
+				099574161C28191F0004F3CA /* LaunchScreen.storyboard */,
+				099574191C28191F0004F3CA /* Info.plist */,
+			);
+			path = "Frases Tabla";
+			sourceTree = "<group>";
+		};
+		099574211C28191F0004F3CA /* Frases TablaTests */ = {
+			isa = PBXGroup;
+			children = (
+				099574221C28191F0004F3CA /* Frases_TablaTests.swift */,
+				099574241C28191F0004F3CA /* Info.plist */,
+			);
+			path = "Frases TablaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099574091C28191F0004F3CA /* Frases Tabla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099574271C28191F0004F3CA /* Build configuration list for PBXNativeTarget "Frases Tabla" */;
+			buildPhases = (
+				099574061C28191F0004F3CA /* Sources */,
+				099574071C28191F0004F3CA /* Frameworks */,
+				099574081C28191F0004F3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frases Tabla";
+			productName = "Frases Tabla";
+			productReference = 0995740A1C28191F0004F3CA /* Frases Tabla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0995741D1C28191F0004F3CA /* Frases TablaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0995742A1C28191F0004F3CA /* Build configuration list for PBXNativeTarget "Frases TablaTests" */;
+			buildPhases = (
+				0995741A1C28191F0004F3CA /* Sources */,
+				0995741B1C28191F0004F3CA /* Frameworks */,
+				0995741C1C28191F0004F3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099574201C28191F0004F3CA /* PBXTargetDependency */,
+			);
+			name = "Frases TablaTests";
+			productName = "Frases TablaTests";
+			productReference = 0995741E1C28191F0004F3CA /* Frases TablaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099574021C28191F0004F3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Luis Berganza";
+				TargetAttributes = {
+					099574091C28191F0004F3CA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0995741D1C28191F0004F3CA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 099574091C28191F0004F3CA;
+					};
+				};
+			};
+			buildConfigurationList = 099574051C28191F0004F3CA /* Build configuration list for PBXProject "Frases Tabla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 099574011C28191F0004F3CA;
+			productRefGroup = 0995740B1C28191F0004F3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099574091C28191F0004F3CA /* Frases Tabla */,
+				0995741D1C28191F0004F3CA /* Frases TablaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099574081C28191F0004F3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099574181C28191F0004F3CA /* LaunchScreen.storyboard in Resources */,
+				099574151C28191F0004F3CA /* Assets.xcassets in Resources */,
+				099574131C28191F0004F3CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995741C1C28191F0004F3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099574061C28191F0004F3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995740E1C28191F0004F3CA /* AppDelegate.swift in Sources */,
+				099574321C2821C20004F3CA /* CeldaFrases.swift in Sources */,
+				0995742E1C2819D50004F3CA /* FrasesTVC.swift in Sources */,
+				099574301C281ECC0004F3CA /* Frases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0995741A1C28191F0004F3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099574231C28191F0004F3CA /* Frases_TablaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		099574201C28191F0004F3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099574091C28191F0004F3CA /* Frases Tabla */;
+			targetProxy = 0995741F1C28191F0004F3CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		099574111C28191F0004F3CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099574121C28191F0004F3CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		099574161C28191F0004F3CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099574171C28191F0004F3CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099574251C28191F0004F3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		099574261C28191F0004F3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		099574281C28191F0004F3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Frases Tabla/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llberganza.Frases-Tabla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		099574291C28191F0004F3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Frases Tabla/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llberganza.Frases-Tabla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0995742B1C28191F0004F3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Frases TablaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llberganza.Frases-TablaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frases Tabla.app/Frases Tabla";
+			};
+			name = Debug;
+		};
+		0995742C1C28191F0004F3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Frases TablaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llberganza.Frases-TablaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frases Tabla.app/Frases Tabla";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099574051C28191F0004F3CA /* Build configuration list for PBXProject "Frases Tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099574251C28191F0004F3CA /* Debug */,
+				099574261C28191F0004F3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099574271C28191F0004F3CA /* Build configuration list for PBXNativeTarget "Frases Tabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099574281C28191F0004F3CA /* Debug */,
+				099574291C28191F0004F3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0995742A1C28191F0004F3CA /* Build configuration list for PBXNativeTarget "Frases TablaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0995742B1C28191F0004F3CA /* Debug */,
+				0995742C1C28191F0004F3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 099574021C28191F0004F3CA /* Project object */;
+}
